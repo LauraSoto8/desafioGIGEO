@@ -1,0 +1,50 @@
+.container-fluid{
+   width: 100%;
+}
+#container_autor{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+
+    }
+    
+ .info-autor{
+    display: flex;
+    padding: 20px;
+    @media (max-width:578px){
+      justify-content: center!important;
+      margin-left: 55px;
+    }
+
+ }
+ .content{
+    padding: 10px;
+ }
+ 
+ .container_autor__buttons{
+   padding: 30px;
+   
+   @media (max-width:578px){
+      display: none;
+   }
+   
+ }
+ 
+#container_videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @media (max-width:578px){
+      width: 100%;
+   }
+
+}
+h5{
+   flex-wrap: wrap;   
+}
+
+.nav-bars{
+   list-style: none;
+}

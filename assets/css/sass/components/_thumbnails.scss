@@ -1,0 +1,9 @@
+.thumbnail {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 10vh;
+    @media (max-width:578px){
+      width: 15vh;
+   }
+  }
+  

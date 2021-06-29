@@ -1,0 +1,48 @@
+.container_videos__description{
+    width: 40vh;
+    margin: auto;
+    height: auto;
+
+    
+}
+.videoimage{
+    width: 40vh;
+    height: 20vh;
+   
+}
+h6{
+    width: 45vh;
+    font-family: $lato-weight-regular;
+    font-size: $font-size-medium !important;
+    font-style: 400;
+    font-weight: bold;
+h5{
+    font-size:$font-size-small !important;
+}
+}
+.principal{
+    height: 15vw;
+    width: 100%;
+    object-position: center;
+}
+h2{
+    padding: 20px;
+    @media (max-width:578px){
+        text-align: center;
+     }
+}
+.nav-item{
+    padding: 10px;
+    @media (max-width:578px){
+        display: none;
+     }
+}
+
+small, p{
+    color:$gray;
+}
+.name, .info{
+    @media (max-width:578px){
+    font-size: $font-size-x-small;
+    }
+}
